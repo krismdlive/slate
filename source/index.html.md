@@ -18,6 +18,7 @@ includes:
   - sav/schedule_a_visit_overview
   - sav/provider_search
   - sav/provider_profile
+  - sav/create_appointment
 
   - entities/entities
   - entities/allergies/create
