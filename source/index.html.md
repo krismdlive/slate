@@ -24,6 +24,7 @@ includes:
   - entities/allergies/delete
   - entities/allergies/list
   - entities/allergies/search
+  - entities/appointments/patient_arrival
   - entities/chief_complaints
   - entities/customer_documents/create
   - entities/customer_documents/delete
