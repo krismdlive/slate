@@ -25,6 +25,7 @@ includes:
   - entities/allergies/list
   - entities/allergies/search
   - entities/appointments/patient_arrival
+  - entities/appointments/video_consultations_in_browser
   - entities/chief_complaints
   - entities/customer_documents/create
   - entities/customer_documents/delete
