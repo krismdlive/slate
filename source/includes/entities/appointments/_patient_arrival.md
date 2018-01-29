@@ -22,7 +22,7 @@ This call is used to notify a provider that a patient has arrived to an appointm
 
 ### HTTP Request
 
-To notify a provider that a patient has arrived to an appointment, make a request to:
+To notify the provider that a patient has arrived to the appointment, make a request to:
 
 `POST {server_url}/api/v1/patients/{patient_id}/appointments/{appointment_id}/entered_waiting_room`
 
