@@ -26,6 +26,7 @@ includes:
   - entities/allergies/delete
   - entities/allergies/list
   - entities/allergies/search
+  - entities/alternate_visit_options/list
   - entities/customer_documents/create
   - entities/customer_documents/delete
   - entities/customer_documents/list
