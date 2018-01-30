@@ -1,9 +1,10 @@
 ## Medications - List
 
 ```shell
-curl -X GET {server_url}/api/v1/patients/{id}/medications
--H "Content-type: application/json"
--H "Authorization: Bearer 34a2sample-user-token"
+curl -X GET {server_url}/api/v1/patients/{id}/medications \
+  -H 'Authorization: Bearer 34a2sample-user-token' \
+  -H 'Content-type: application/json' \
+  -H 'Accept: application/json' \
 ```
 
 ```ruby
@@ -11,8 +12,9 @@ RestClient::Request.new(
   :method => :get,
   :url => "{server_url}/api/v1/patients/{id}/medications",
   :headers => {
-    "Content-type" => "application/json",
-    "Authorization" => "Bearer 34a2sample-user-token"
+    'Authorization' => 'Bearer 34a2sample-user-token',
+    'Content-type' => 'application/json',
+    'Accept' => 'application/json'
   }
 ).execute
 ```
@@ -51,11 +53,3 @@ Parameter    | Default
 ---------    | -------
 Content-type | application/json
 Authorization| Bearer example.jwttoken
-
-
-### Response codes
-
-HTTP Status Code | Reason
----------------- | ------
-200              | Successful operation
-422              | Not authorized or invalid token data
