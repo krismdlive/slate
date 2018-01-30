@@ -112,7 +112,9 @@ RestClient::Request.new(
       "breakthrough_enabled": false,
       "insurance_payer": null,
       "privacy_policy_text":"{privacy_policy_text}",
-      "informed_consent_text":"{informed_consent_text}"
+      "informed_consent_text":"{informed_consent_text}",
+      "privacy_policy_question":"I have read MDLIVE Medical Group's Privacy Policy and I acknowledge that I have the ability to print a hard copy of the Privacy Policy for my records.",
+      "informed_consent_question":"I certify that I have read and accept the terms of MDLIVE Medical Group's Informed Consent."
     },
     "state": {
       "name": "FLORIDA",
