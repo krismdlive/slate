@@ -110,7 +110,9 @@ RestClient::Request.new(
       "request_appointment_enabled": true,
       "phone_only": false,
       "breakthrough_enabled": false,
-      "insurance_payer": null
+      "insurance_payer": null,
+      "privacy_policy_text":"{privacy_policy_text}",
+      "informed_consent_text":"{informed_consent_text}"
     },
     "state": {
       "name": "FLORIDA",
